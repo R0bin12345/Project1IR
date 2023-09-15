@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aanmelden</title>
+</head>
+<body>
+    <nav> <a href="index.html">Home</a>
+        <a href="canvas.html">Canvas</a>
+        <a href="Overmij.html"> Over mij</a>
+        <a href="eduarte.html"> eduarte</a>
+        <a href="locatiegids.html"> Locatiegids</a>
+        <a href="BSA.html">BSA</a>
+        <a href="opleidingswijzer.html">opleidingswijzer</a>
+        <a href="Aanmelden.html">Aanmelden</a> </nav>
+        <br>
+        <h2>Aanmeldings formulier ouderavond</h2>
+        <form>
+            <label for="fname">Voornaam:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Achternaam:</label><br>
+            <input type="text" id="lname" name="lname" required>
+            <br>
+            <label for="straathuis">Straat naam & huisnummer:</label>
+           <br>
+            <input type="text" id="straathuis" name="straathuis">
+            <br>
+            <label for="stad">Stad:</label>
+            <br>
+            <input type="text" id="stad" name="stad" required>
+            <br>
+            <label for="Datum">Datum:</label>
+            <br>
+            <input type="date" id="datum" name="datum" required min="<?php echo date('Y-m-d'); ?>">
+            <br>
+            <label for="email">E-mail:</label>
+            <br>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <input type="submit" value="versturen">
+          </form>  
+</body>
+</html>
