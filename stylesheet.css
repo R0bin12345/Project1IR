@@ -11,22 +11,30 @@ h1 {
     .topnav {
         background-color: #04AA6D;
         overflow: hidden;
+        margin-left: 1vw;
+        list-style-type: none;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        width: 90vw;
       }
       
       /* Style the links inside the navigation bar */
       .topnav a {
-        float: left;
+        float:left;
         color: #FFFFFF;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
         font-size: 17px;
       }
+     
       
       /* Change the color of links on hover */
       .topnav a:hover {
         background-color: #FFFFFF;
-        color:#04AA6D ;
+        color:#04AA6D;
       }
       /* Add a color to the active/current link */
       .topnav a.active {
@@ -34,7 +42,15 @@ h1 {
         color: #FFFFFF;
       }
       /* styles.css */
-h2{
+    
+      h1{color:#FFFFFF}/*white color*/
+      .logo {
+        float: left;
+        width: 9vw;
+        height: 6vh;
+      }
+      
+      h2{
     color: #FFFFFF; /* white color */
   }
   
@@ -44,4 +60,8 @@ p{
 
 .white-text {
     color: #FFFFFF;
+  }
+
+  table{ color:white; /*text kleur table*/
+ background-color:#144820; /* Achtergrondkleur voor de tabel */
   }
