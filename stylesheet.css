@@ -53,6 +53,7 @@ h1 {
       h2{
     color: #FFFFFF; /* white color */
   }
+  h3{color:#FFFFFF}/*white color*/
   
 p{
     color:#FFFFFF;
@@ -65,8 +66,9 @@ p{
   table{ color:white; /*text kleur table*/
  background-color:#144820; /* Achtergrondkleur voor de tabel */
   }
- 
-footer {
+  h2{border-style:solid;border-radius: 5px; border-color: #04AA6D;}
+
+  footer {
     background-color:#04AA6D; /* Dezelfde kleur als navigatiebalk */
     color: white;
     text-align: center;
@@ -76,5 +78,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100vw;
-    max-height:5vh;
+    max-height:6vh;
   }
+   #software {float:center;
+  width: 10px;
+height:10px;}
