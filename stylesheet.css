@@ -1,5 +1,4 @@
 body { background-color: #144820;
- 
 }
 
 h1 {
@@ -7,6 +6,10 @@ h1 {
     color:#FFFFFF;
     }
 
+    iframe{float: top;
+      padding-left: 1vw;
+        padding-right: 1vw;
+        padding-top: 1vh;}
 
     .topnav {
         background-color: #04AA6D;
@@ -80,9 +83,26 @@ p{
     width: 100vw;
     max-height:6vh;
   }
-   #software {float:center;
-  width: 10px;
-height:10px;}
+   #software {float:right;
+  width: 700px;
+height:400px;}
 
 form{
   color:#FFFFFF;}
+
+
+  li{color:#FFFFFF}
+
+  a{color: #FFFFFF;}
+
+
+  .class1 {
+    color: white;
+    float: left;
+}
+
+.class2 {
+    color: white;
+    float: right;
+}
+
