@@ -105,4 +105,11 @@ form{
     color: white;
     float: right;
 }
+.class3 a{
+align-items: center;
+}
 
+embed{
+  width: 50vw;
+  height: 75vh;
+}
