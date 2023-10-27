@@ -113,3 +113,159 @@ embed{
   width: 50vw;
   height: 75vh;
 }
+
+.footer1{
+  position: relative }
+
+  /* Mediaquery voor tablets op pagina's met de identificatie "responsive" */
+@media (max-width: 768px) {
+  body[data-page="responsive"] img {
+      width: 80%;
+  }
+  body[data-page="responsive"] ul {
+      padding-left: 0;
+  }
+}
+
+/* Mediaquery voor telefoons op pagina's met de identificatie "responsive" */
+@media (max-width: 480px) {
+  body[data-page="responsive"] h1 {
+      font-size: 24px;
+  }
+  body[data-page="responsive"] h2 {
+      font-size: 18px;
+  }
+  body[data-page="responsive"] img {
+      width: 100%;
+  }
+}
+.bob {
+
+  border-collapse: collapse;
+
+  width: 50%;
+
+  position:absolute;
+
+  top: 25%;
+
+  left:49%;
+}
+
+ 
+
+.dave, .dave {
+  padding: 8px;
+  text-align: center;
+
+}
+
+.dave {
+ border-collapse: collapse;
+ width: 80%;
+ position: relative;
+}
+
+.th1, .td1{
+border: 1px solid rgb(195,0,255);
+padding: 8px;
+text-align: center;
+}
+
+.th1{
+  background-color:#7a00a3;
+}
+
+.dropdown{
+
+  position: relative;
+
+  display: inline-block;
+
+}
+
+ 
+
+.dropdown .dropbtn{
+
+background-color:#04AA6D;
+
+color:#ffffff;
+
+padding: 10px;
+
+font-size: 16px;
+
+border: none;
+
+}
+
+ 
+
+.dropdown-content{
+
+  display: none;
+
+  background-color:#ffffff;
+
+  min-width: 100%;
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  z-index: 2;
+
+  top:100%;
+
+ 
+
+}
+
+.dropdown-content a{
+
+  float: none;
+
+  color:#00a8c7;
+
+  padding: 12px 16px;
+
+  text-decoration: none;
+
+  display: block;
+
+  text-align: left;
+
+}
+
+ 
+
+.dropdown:hover .dropdown-content{
+
+  display: block;
+
+ 
+
+}
+
+.dropdown-content:hover{
+
+  background-color: #E9E9E9;
+
+}
+
+ 
+
+.dropdown:hover .dropbtn{
+
+background-color: #ffffff;
+
+}
+
+ 
+
+.dropbtn:hover{
+
+  background-color:#144820;
+
+  color: #00a8c7;
+
+}
